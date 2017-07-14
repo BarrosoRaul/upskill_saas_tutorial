@@ -38,6 +38,15 @@ h1, h2, h3 {
     font-weight: 800;
 }
 
+.nav-item {
+    padding: 15px 15px 15px 15px;
+    float: right;
+    color: #777;
+    &:hover, &:focus {
+        color: #5e5e5e;
+    }
+}
+
 .home-callout {
     margin-top: -20px;
     padding-top: 50px;
