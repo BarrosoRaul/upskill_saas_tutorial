@@ -41,9 +41,10 @@ h1, h2, h3 {
 .nav-item {
     padding: 15px 15px 15px 15px;
     float: right;
-    color: #777;
+    color: white;
     &:hover, &:focus {
-        color: #5e5e5e;
+        color: #eee;
+        text-decoration: none;
     }
 }
 
