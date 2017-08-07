@@ -2,7 +2,7 @@
 //Document ready
 $(document).on('turbolinks:load', function(){
   var theForm = $('#pro_form'),
-      submitBtn = $('#form_submit_btn');
+      submitBtn = $('#form_signup_btn');
   
   //Set Stripe public key
   Stripe.setPublishableKey( $('meta[name="stripe-key"').attr('content') );
