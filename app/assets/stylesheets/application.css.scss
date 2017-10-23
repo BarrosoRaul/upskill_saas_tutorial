@@ -31,6 +31,7 @@ h1, h2, h3 {
 
 .navbar {
     border: none;
+    border-radius: 0px;
 }
 
 .navbar-brand {
@@ -73,8 +74,13 @@ h1, h2, h3 {
   position: absolute;
   width: 100%;
 }
+
 .alert-notice, .alert-alert {
   text-align: center;
   background: rgba(255, 255, 255, 0.3);
   margin-top: -14px;
+}
+
+.navbar-right {
+  display: inline-block;
 }
